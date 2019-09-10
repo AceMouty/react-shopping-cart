@@ -5,7 +5,7 @@ import {CartContext} from '../context/CartContext'
 // Components
 import Item from './ShoppingCartItem';
 
-const ShoppingCart = props => {
+const ShoppingCart = () => {
 	
 	const cart  = useContext(CartContext);
 
